@@ -15,8 +15,8 @@ function domanda_gioco(regola_utente, numero_utente) {
   return false;
 }
 
-  function numero_generato_cpu(numeroMassimo) {
-  var numero_cpu = Math.ceil(Math.random() * numeroMassimo);
+  function numero_generato_cpu(numero_massimo) {
+  var numero_cpu = Math.ceil(Math.random() * numero_massimo);
   document.writeln("<br> Il Computer ha scelto il numero " + numero_cpu + "<br>");
   return numero_cpu;
 }
